@@ -1,7 +1,8 @@
 // ==UserScript==
 // @name		Common scripts
-// @namespace   http://www.taguri.org
+// @namespace    http://tampermonkey.net/
 // @description collection of handy tools
+// @author      Wilson Huynh
 // @include		*
 // @match       http*://*/*
 // @version 	1.0
@@ -50,10 +51,9 @@
 			setTimeout(addUIResources, 1000);
 		}
 		else{
-			addStyle('//localhost/code/common/css/common.css');
-			addScript('//localhost/code/common/js/base64.js');
+			addStyle('https://cdn.rawgit.com/wilsonhuynh/bookmark/cb7d9a03/src/css/common.css');
 			addScript('//cdnjs.cloudflare.com/ajax/libs/Base64/0.3.0/base64.js');
-			addScript('//localhost/code/common/js/common.js');
+			addScript('https://cdn.rawgit.com/wilsonhuynh/bookmark/cb7d9a03/src/js/Common.js?v=0.1');
 		}
 	}
 
