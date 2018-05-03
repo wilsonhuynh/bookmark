@@ -111,7 +111,7 @@ wh.visualEvent = function(){
     }
   } 
   else {
-	  wh.addScript('https://cdn.rawgit.com/wilsonhuynh/bookmark/4ca566da/src/libs/visualEvent/VisualEvent_Loader.js');
+	  wh.addScript('https://cdn.rawgit.com/wilsonhuynh/bookmark/1e93dac4/src/libs/visualEvent/VisualEvent_Loader.js');
   }
 };
 
