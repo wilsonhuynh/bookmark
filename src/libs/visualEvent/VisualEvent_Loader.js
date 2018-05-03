@@ -124,12 +124,12 @@ VisualEvent_Loader.prototype = {
 		/* Load the required files - note that the token ///debug/VisualEvent-1395890664 is replaced by the build
 		 * script with the location of the combined Visual Event file (i.e. with the parsers included
 		 */
-		this._loadFile( protocol+'///local.webjet.com.au/code/VisualEvent/css/VisualEvent.css', 'css' );
+		this._loadFile('https://cdn.rawgit.com/wilsonhuynh/bookmark/4ca566da/src/libs/visualEvent/VisualEvent.css', 'css' );
 		if ( typeof jQuery == 'undefined' ) {
-			this._loadFile( protocol+'///local.webjet.com.au/code/VisualEvent/js/VisualEvent-jQuery.js', 'js' );
+			this._loadFile('https://cdn.rawgit.com/wilsonhuynh/bookmark/4ca566da/src/libs/visualEvent/VisualEvent-jQuery.js', 'js' );
 		}
 		else {
-			this._loadFile( protocol+'///local.webjet.com.au/code/VisualEvent/js/VisualEvent.js', 'js' );
+			this._loadFile('https://cdn.rawgit.com/wilsonhuynh/bookmark/4ca566da/src/libs/visualEvent/VisualEvent.js', 'js' );
 		}
 	},
 

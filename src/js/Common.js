@@ -111,7 +111,7 @@ wh.visualEvent = function(){
     }
   } 
   else {
-	  wh.addScript('//local.webjet.com.au/code/VisualEvent/VisualEvent_Loader.js');
+	  wh.addScript('https://cdn.rawgit.com/wilsonhuynh/bookmark/4ca566da/src/libs/visualEvent/VisualEvent_Loader.js');
   }
 };
 
