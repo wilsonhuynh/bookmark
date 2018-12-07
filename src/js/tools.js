@@ -39,7 +39,7 @@
 		else{
 			addStyle('https://cdn.rawgit.com/wilsonhuynh/bookmark/cb7d9a03/src/css/common.css');
 			addScript('//cdnjs.cloudflare.com/ajax/libs/Base64/0.3.0/base64.js');
-			addScript('https://cdn.rawgit.com/wilsonhuynh/bookmark/cb7d9a03/src/js/Common.js?v=0.1');
+			addScript('https://cdn.jsdelivr.net/gh/wilsonhuynh/bookmark@cb7d9a03/src/js/Common.js?v=0.1');
 		}
 	}
 
